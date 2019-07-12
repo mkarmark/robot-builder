@@ -99,7 +99,7 @@ export default {
   mounted() {
     axios
       .get(
-        "https://angry-babbage-98ec47.netlify.com/.netlify/functions/parts"
+        "/.netlify/functions/parts"
       )
       .then(response => {
         this.availableParts = response.data;
