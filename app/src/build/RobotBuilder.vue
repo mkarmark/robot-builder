@@ -99,7 +99,7 @@ export default {
   mounted() {
     axios
       .get(
-        "/.api/parts"
+        ".api/parts"
       )
       .then(response => {
         this.availableParts = response.data;
