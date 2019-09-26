@@ -8,7 +8,7 @@ module.exports = {
     config
       .entry("app")
       .clear()
-      .add("./app/main.js")
+      .add("./main.js")
       .end();
     config.resolve.alias
       .set("@", path.join(__dirname, "./app"))
