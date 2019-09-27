@@ -32,7 +32,7 @@ jobs:
         
         azure_pages_api_version: 'v1' # optional
         
-        app_build_output_location: 'app/dist'
+        app_build_output_location: 'dist'
 
         app_source_location: 'app' # optional
 
