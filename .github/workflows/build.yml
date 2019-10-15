@@ -38,7 +38,7 @@ jobs:
 
       with:
 
-        azure_pages_buildhost: 'jamstackdemobuildsystem.azurewebsites.net'
+        azure_pages_buildhost: 'buildsystem3.azurewebsites.net'
 
         azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN }}
         
